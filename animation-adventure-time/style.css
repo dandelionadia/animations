@@ -1,0 +1,19 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+  
+.moveEyes {
+    transform: scaleY(1);
+    transform-origin: center;
+    animation: moveEyes 5s infinite;
+}
+  
+@keyframes moveEyes {
+    50% { transform: scaleY(1); }
+    70% { transform: scaleY(1); }
+    80% { transform: scaleY(0.2); }
+    90% { transform: scaleY(0.2); }
+    100% { transform: scaleY(1); }
+  
+}
