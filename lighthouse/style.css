@@ -1,0 +1,14 @@
+.box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .light {
+   animation: san 4s linear 2s infinite ;
+  }
+  
+  @keyframes san {
+    0%   { opacity: 1;}
+    50%  { opacity: 0;}
+    100% { opacity: 1;}
+  }
