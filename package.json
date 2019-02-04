@@ -1,0 +1,22 @@
+{
+  "name": "animation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync --open --files=./**/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandelionadia/animations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandelionadia/animations/issues"
+  },
+  "homepage": "https://github.com/dandelionadia/animations#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
