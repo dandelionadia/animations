@@ -25,3 +25,25 @@ body {
     border-radius: 4px;
     height: 250px;
 }
+
+.content__btn-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.content__btn {
+    background-color: tomato;
+    color: #fff;
+    border-radius: 4px;
+    padding: 6px 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.content__btn--animation {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold;
+}
