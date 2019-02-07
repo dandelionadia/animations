@@ -42,6 +42,12 @@ body {
     margin-top: 30px;
 }
 
+.content__btn:hover {
+    background-color: hsl(9, 100%, 53%);
+    color: #fff;
+    text-decoration: none;
+}
+
 .content__btn--animation {
     flex: 1;
     margin-right: 10px;
