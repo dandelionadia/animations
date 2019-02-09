@@ -1,0 +1,144 @@
+body { 
+  background: #d6cdc7;
+}
+
+.box {
+  width: 500px;
+  height: 400px;
+  background: #d6cdc7;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-body {
+  width: 200px;
+  height: 200px;
+  background: #ff9000;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.circle-ears, .circle-head {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle-ears {
+  margin-top: -60px;
+  margin-left: 30px;
+  background: #ff6a00;
+  z-index: 3;
+}
+
+.circle-head {
+  margin-top: -30px;
+  margin-left: 95px;
+  background: #ff9000;
+  z-index: 4;
+}
+
+.legs {
+  width: 180px;
+  height: 70px;
+  background: #ff9000;
+  position: absolute;
+  margin-top: 80px;
+  z-index: 1;
+}
+
+.mous {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #ff9000;
+  margin-left: 97px;
+}
+
+.kut-1 {
+  position: absolute;
+  z-index: 4;
+  background: #d6cdc7;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+.kut-2 {
+  background: #d6cdc7;
+  position: absolute;
+  z-index: 5;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 235px;
+}
+
+.kut-3 {
+  background: #d6cdc7;
+  position: absolute;
+  z-index: 5;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 110px;
+  margin-left: 160px;
+}
+
+.kut-4 {
+  background: #d6cdc7;
+  position: absolute;
+  z-index: 5;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 110px;
+  margin-left: -165px;
+}
+
+.nous {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background: #ff9000;
+  border-radius: 50%;
+  margin-left: 140px;
+  margin-top: -75px;
+}
+
+.kut-5, .kut-6 {
+  background: #d6cdc7;
+  position: absolute;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.kut-5 {
+  width: 110px;
+  height: 110px;
+  margin-top: -88px;
+  margin-left: 150px;
+}
+
+.kut-6 {
+  width: 150px;
+  height: 150px;
+  margin-top: -120px;
+  margin-left: 130px;
+}
+
+.eye {
+  width: 10px;
+  height: 10px;
+  background: black;
+  position: absolute;
+  z-index: 6;
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-top: -30px;
+}
