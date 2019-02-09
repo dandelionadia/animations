@@ -1,5 +1,6 @@
 .box {
     display: flex;
     justify-content: center;
-     background-color: #ff4d4d
+     background-color: #ff4d4d;
+     width: 240px;
   }
