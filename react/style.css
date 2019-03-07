@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin-left: 20%;
+  animation: rotating 8s linear infinite;
+}
+
+@keyframes rotating {
+  100% {  transform: rotate(360deg);}
+}
