@@ -1,0 +1,16 @@
+body {
+  background-color: #647AA1;
+}
+
+.box {
+ width: 400px;
+ margin: 0 auto;
+}
+
+.star {
+ color: gold;
+ margin-top: -380px;
+ margin-left: 125px;
+ position: absolute;
+ font-size: 40px;
+}
