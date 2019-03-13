@@ -5,10 +5,12 @@ body {
 .box {
   width: 200px;
   height: 200px;
-  margin-left: 20%;
+  margin: 0 auto;
+  transform-origin: 103px 108px;
   animation: rotating 8s linear infinite;
 }
 
 @keyframes rotating {
   100% {  transform: rotate(360deg);}
 }
+  
