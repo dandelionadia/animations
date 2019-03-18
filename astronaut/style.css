@@ -13,63 +13,63 @@ $color-star: #7F75AB; */
     margin: 0 auto;
   }
   
-  .box {
-    display: inline-block;
-  }
+.box {
+  display: inline-block;
+}
 
 .starLeftTop {
   opacity: 1;
   animation: muve 5s linear infinite;
-  
-  @keyframes muve {
-    0% {opacity: 1;}
-    20% {opacity: 0.2;}
-    30% {opacity: 1;}
-  }
+}
+
+@keyframes muve {
+  0% {opacity: 1;}
+  20% {opacity: 0.2;}
+  30% {opacity: 1;}
 }
 
 .starRightBottom {
   opacity: 1;
   animation: muve2 4s linear infinite;
-  
-  @keyframes muve2 {
-    0% {opacity: 1;}
-    40% {opacity: 1;}
-    50% {opacity: 0.2;}
-    60%{opacity: 1;}
-  }
+}
+
+@keyframes muve2 {
+  0% {opacity: 1;}
+  40% {opacity: 1;}
+  50% {opacity: 0.2;}
+  60%{opacity: 1;}
 }
 
 .starRightTopBig {
   opacity: 1;
   animation: muve3 4s linear infinite;
-  
-  @keyframes muve3 {
-    0% {opacity: 1;}
-    60% {opacity: 1;}
-    70% {opacity: 0.2;}
-    80%{opacity: 1;}
-  }
+}
+
+@keyframes muve3 {
+  0% {opacity: 1;}
+  60% {opacity: 1;}
+  70% {opacity: 0.2;}
+  80%{opacity: 1;}
 }
 
 .starLeftBottom {
   opacity: 1;
   animation: muve4 4s linear infinite;
-  
-  @keyframes muve4 {
-    80% {opacity: 1;}
-    90% {opacity: 0.2;}
-    100%{opacity: 1;}
-  }
+}
+
+@keyframes muve4 {
+  80% {opacity: 1;}
+  90% {opacity: 0.2;}
+  100%{opacity: 1;}
 }
 
 .starLeftCentr {
   opacity: 1;
   animation: muve5 4s linear infinite;
-  
-  @keyframes muve5 {
-    10% {opacity: 1;}
-    20% {opacity: 0.2;}
-    30%{opacity: 1;}
-  }
+}
+
+@keyframes muve5 {
+  10% {opacity: 1;}
+  20% {opacity: 0.2;}
+  30%{opacity: 1;}
 }
