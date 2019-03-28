@@ -1,0 +1,19 @@
+/* $color-orange: #EE5C11;
+$color-stomach: #FBB03B ;
+$color-body: ##C29D6E,
+$color-orange: #483890;
+$color-wings: #633613; */
+
+body {
+  background-color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border: 2px dotted rgba(0,0,0, .4);
+  max-width: 100%;
+}
