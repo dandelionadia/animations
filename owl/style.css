@@ -17,3 +17,41 @@ body {
   border: 2px dotted rgba(0,0,0, .4);
   max-width: 100%;
 }
+
+.moveEyes {
+  transform: scaleY(1);
+  transform-origin:  80px 80px;
+  animation: moveEyes 10s infinite;
+}
+
+@keyframes moveEyes {
+  5% { transform: scaleY(1); }
+  7% { transform: scaleY(0.1); }
+  9% { transform: scaleY(1); }
+  10% { transform: scaleY(1); }
+  12% { transform: scaleY(0.1); }
+  14% { transform: scaleY(1); }
+  60% { transform: scaleY(1); }
+  70% { transform: scaleY(0.03); }
+  90% { transform: scaleY(0.03); } 
+  99% { transform: scaleY(0.03); }
+  100% { transform: scaleY(1); }
+}
+
+.moveCenter {
+  transform: translate(0);
+  animation: moveCenter 5s infinite;
+}
+
+@keyframes moveCenter {
+  10%{ transform: translate(0);}
+  40%{ transform: translate(0);}
+  55% { transform: translate(20px); }
+  60% { transform: translate(0);  }
+  80% { transform: translate(-25px); }
+  83% { transform: translate(-25px); }
+  85% { transform: translate(-25px); }
+  90% { transform: translate(0);  }
+  100%{transform: translate(0);}
+  
+}
