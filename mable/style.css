@@ -2,9 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .box {
   border: 2px dotted rgba(0,0,0, .4);
   max-width: 100%;
 }
+
+/* $color-body: #FDD0B1; */
+/* $color-hair: #7B4328; */
+/* $color-braces: #8DC2B5; */
+/* $color-blush: #FBB291; */
+/* $color-shadow=mouth: #D5CCD3; */
