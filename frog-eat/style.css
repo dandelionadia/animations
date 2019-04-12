@@ -6,9 +6,8 @@ body {
   width: 600px;
   height: 600px;
   background-color:  rgb(153, 255, 204);
-  margin: auto;
+  margin:  100px auto auto;
   display: flex;
-  margin-top: 100px;
   justify-content: center;
   align-items: center;
 }
@@ -29,8 +28,7 @@ body {
   position: absolute;
   z-index: 2;
   border-radius: 50%;
-  margin-left: -150px;
-  margin-top: 20px;
+  transform: translate(-150px, 20px);
 }
 
 .circle-3 {
@@ -39,8 +37,7 @@ body {
   background-color: rgb(153, 255, 204);
   position: absolute;
   z-index: 3;
-  margin-left: -65px;
-  margin-top: -135px;
+  transform: translate(-65px, -135px);
   border-radius: 50%;
 }
 
@@ -50,8 +47,7 @@ body {
   background-color: #00d647;
   position: absolute;
   z-index: 4;
-  margin-left: -57px;
-  margin-top: -134px;
+  transform: translate(-57px, -134px);
   border-radius: 50%;
 }
 
@@ -61,8 +57,7 @@ body {
   background-color: rgb(153, 255, 204);
   position: absolute;
   z-index: 6;
-  margin-left: 57px;
-  margin-top:180px;
+  transform: translate(57px, 180px);
   border-radius: 50%;
 }
 
@@ -72,8 +67,7 @@ body {
   background-color: #00d647;
   position: absolute;
   z-index: 5;
-  margin-left: -10px;
-  margin-top: 170px;
+  transform: translate(-10px, 170px);
   border-radius: 50%;
 }
 
@@ -83,8 +77,7 @@ body {
   background-color: rgb(153, 255, 204);
   position: absolute;
   z-index: 7;
-  margin-left: 35px;
-  margin-top: 205px;
+  transform: translate(35px, 205px);
   border-radius: 50%;
 }
 
@@ -94,8 +87,7 @@ body {
   background-color: rgb(153, 255, 204);
   position: absolute;
   z-index: 8;
-  margin-left: -125px;
-  margin-top: 205px;
+  transform: translate(-125px, 205px);
   border-radius: 50%;
 }
 
@@ -105,8 +97,7 @@ body {
   background-color: rgb(153, 255, 204);
   position: absolute;
   z-index: 8;
-  margin-left: -69px;
-  margin-top: 40px;
+  transform: translate(-69px, 40px);
   border-radius: 50%;
 }
 
@@ -116,8 +107,7 @@ body {
   background-color: rgb(153, 255, 204);
   position: absolute;
   z-index: 8;
-  margin-left: -55px;
-  margin-top: 50px;
+  transform: translate(-55px, 50px);
   border-radius: 50%;
 }
 
@@ -127,8 +117,7 @@ body {
   background-color: #03ba40;
   position: absolute;
   z-index: 9;
-  margin-left: 10px;
-  margin-top: -145px;
+  transform: translate(10px, -145px);
   border-radius: 50%;
 }
 
@@ -138,8 +127,7 @@ body {
     background-color: white;
     position: absolute;
     z-index: 10;
-    margin-left: 10px;
-    margin-top: -145px;
+    transform: translate(10px, -145px);
     border-radius: 50%;
     animation: closeEye 2.5s infinite;
 }
@@ -157,8 +145,7 @@ body {
   background-color: rgb(153, 255, 204);
   position: absolute;
   z-index: 11;
-  margin-left: 80px;
-  margin-top: -20px;
+  transform: translate(80px, -20px);
   border-radius: 50%;
 }
 
@@ -168,8 +155,7 @@ body {
   background: #00d647;
   position: absolute;
   z-index: 11;
-  margin-left: 90px;
-  margin-top: -15px;
+  transform: translate(90px, -15px);
   border-radius: 50%;
 }
 
@@ -179,8 +165,7 @@ body {
   background-color: rgb(153, 255, 204);
   position: absolute;
   z-index: 12;
-  margin-left: 37px;
-  margin-top: 18px;
+  transform: translate(37px, 18px);
   border-radius: 30%;
 }
 
@@ -190,34 +175,32 @@ body {
   background-color: #00d647;
   position: absolute;
   z-index: 13;
-  margin-left: 64px;
-  margin-top: 15px;
+  transform: translate(64px, 15px);
 }
 
 .fly {
-  margin-top: -400px;
-  margin-left: -100px;
+  transform: translate(-100px, -400px);
   position: absolute;
   z-index: 10;
   display: flex;
   animation: move 4s infinite;
-} 
+}
 
 @keyframes move {
-20% { transform: translate(-100px, 150px);}
-30% { transform: translate(-150px, 350px);}
-40% { transform: translate(-250px, 100px);}
-50% { transform: translate(350px, 100px);}
-60% { transform: translate(250px, 200px);}
-70% { transform: translate(250px, 100px);}
-80% { transform: translate(-150px, 150px);}
-90% { transform: translate(-250px, 200px);}
-95% { transform: translate(-90px, 270px);}
-96% { transform: translate(-90px, 270px);}
-97% { transform: translate(-90px, 270px);}
-98% { transform: translate(-90px, 270px);}
-99% { transform: translate(-90px, 270px);}
-100% { transform: translate(-90px, 270px);}
+20% { transform: translate(0, -250px);} /* */
+30% { transform: translate(-250px, -50px);}
+40% { transform: translate(-350px, -300px);}
+50% { transform: translate(250px, -300px);}
+60% { transform: translate(150px, -200px);}
+70% { transform: translate(150px, -300px);}
+80% { transform: translate(-250px, -250px);}
+90% { transform: translate(-350px, -200px);}
+95% { transform: translate(-190px, -130px);}
+96% { transform: translate(-190px, -130px);}
+97% { transform: translate(-190px, -130px);}
+98% { transform: translate(-190px, -130px);}
+99% { transform: translate(-190px, -130px);}
+100% { transform: translate(-190px, -130px);}
 }
 
 
@@ -262,19 +245,17 @@ body {
 
 .tangue {
   background-color: red;
-  margin-top: -134px;
-  margin-left: -118px;
   width: 130px;
   height: 5px;
   position: absolute;
   z-index: 3;
   animation: moveTongue 4s infinite;
-  transform: scaleX(0);
-  transform-origin: right;
+  transform: scaleX(0) translate(-118px, -134px);
+  transform-origin: 5px;
 }
 
 @keyframes moveTongue {
-  95% {transform: scaleX(0);}
-  96% {transform: scaleX(1);}
-  100% {transform: scaleX(0);}
+  95% {transform: scaleX(0) translate(-118px, -134px);}
+  96% {transform: scaleX(1) translate(-118px, -134px);}
+  100% {transform: scaleX(0) translate(-118px, -134px);}
 }
