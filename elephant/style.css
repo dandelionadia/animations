@@ -8,7 +8,6 @@ body {
   background: #d6cdc7;
   margin: auto;
   transform: translate(0, 80px);
-  /* margin-top: 80px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,16 +30,12 @@ body {
 
 .circle-ears {
   transform: translate(30px, -60px);
-  /* margin-top: -60px;
-  margin-left: 30px; */
   background: #ff6a00;
   z-index: 3;
 }
 
 .circle-head {
   transform: translate(95px, -30px);
-  /* margin-top: -30px;
-  margin-left: 95px; */
   background: #ff9000;
   z-index: 4;
 }
@@ -51,7 +46,6 @@ body {
   background: #ff9000;
   position: absolute;
   transform: translate(0, 80px);
-  /* margin-top: 80px; */
   z-index: 1;
 }
 
@@ -60,7 +54,6 @@ body {
   height: 100px;
   position: absolute;
   background: #ff9000;
-  /* margin-left: 97px; */
   transform: translate(97px);
 }
 
@@ -71,7 +64,6 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  /* margin-top: 100px; */
   transform: translate(0, 100px);
 }
 
@@ -82,7 +74,6 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  /* margin-top: 235px; */
   transform: translate(0, 235px);
 }
 
@@ -94,8 +85,6 @@ body {
   height: 200px;
   border-radius: 50%;
   transform: translate(160px, 110px);
-  /* margin-top: 110px;
-  margin-left: 160px; */
 }
 
 .kut-4 {
@@ -106,8 +95,6 @@ body {
   height: 200px;
   border-radius: 50%;
   transform: translate(-165px, 110px);
-  /* margin-top: 110px;
-  margin-left: -165px; */
 }
 
 .nous {
@@ -116,8 +103,6 @@ body {
   position: absolute;
   background: #ff9000;
   border-radius: 50%;
-  /* margin-left: 140px;
-  margin-top: -75px; */
   transform: translate(140px, -75px);
 }
 
@@ -131,16 +116,12 @@ body {
 .kut-5 {
   width: 110px;
   height: 110px;
-  /* margin-top: -88px;
-  margin-left: 150px; */
   transform: translate(150px, -88px);
 }
 
 .kut-6 {
   width: 150px;
   height: 150px;
-  /* margin-top: -120px;
-  margin-left: 130px; */
   transform: translate(130px, -120px);
 }
 
@@ -151,7 +132,5 @@ body {
   position: absolute;
   z-index: 6;
   border-radius: 50%;
-  /* margin-left: 120px;
-  margin-top: -30px; */
   transform: translate(120px, -30px);
 }

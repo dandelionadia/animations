@@ -9,8 +9,7 @@ body {
 
 .star {
  color: gold;
- margin-top: -380px;
- margin-left: 125px;
+ transform: translate(125px, -380px);
  position: absolute;
  font-size: 40px;
 }
