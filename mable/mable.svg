@@ -620,5 +620,29 @@
                 c 0 0, 0 0, -55 70
                 c 0 0, 0 0, 60 -120
                 " fill="#9C653C" />  
-                   
+        <!-- branches left -->
+        <path d="M 15 0
+                c 0 0, 0 0, 30 20
+                c 0 0, 0 0, -30 -30
+                c 0 0, 0 0, 50 40
+                c 0 0, 0 0, -10 -20
+                c 0 0, 0 0, 15 10
+                c 0 0, 0 0, -10 -20
+                "  stroke="black" fill="#7F522F"/>
+        //ornamentation
+        <path d="M 100 -10
+                c 0 0, 0 0, -30 70
+                c 0 0, 0 0, -40 -10
+                z
+                " stroke="black" stroke-opacity="0.5"  fill="#F3BB54"/>
+        <path d="M 70 60
+                c 0 0, 0 0, -30 70
+                c 0 0, 0 0, -40 -10
+                z
+                " stroke="black" stroke-opacity="0.5" fill="#F53540"/>
+        <path d="M 40 130
+                c 0 0, 0 0, -40 70
+                c 0 0, 0 0, -40 -10
+                z
+                " stroke="black" stroke-opacity="0.5"  fill="#F3BB54"/>
 </svg>
