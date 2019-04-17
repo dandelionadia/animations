@@ -273,9 +273,9 @@
                 c 0 0, 115 -20, 99 50
                 c 0 0 , -5 -15, -24 -27
                 " stroke="black" stroke-width="2.5" fill="#7B4328" />
-        <!-- bottom -->
-        <path d="M 126 387
-                c -20 -50, 40 -30, -30 0
+        <!-- bottom fixed-->
+        <path d="M 126 386.5
+                c -25 -55, 38 -25, -30 0
                 " stroke="black" stroke-width="2" fill="none" /> 
         <path d="M 126 385
                 c 0 0, 0 20, 50 20
