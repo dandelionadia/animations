@@ -27,6 +27,20 @@
         " stroke="black" fill="none" />
         <!-- left eye -->
         <circle r="12.3" cx="305" cy="120" stroke="black" fill="white" />
+        <!-- nose -->
+        <path d="M 319 125
+                c 0 0 , 24 39, -5 48
+                c 0 0, -14 3, -20 -10
+                c 0 0 , -10 -16, 23 -39
+        " stroke="black" stroke-width="1.5" fill="#E78D77" />
+        <path d="M 298 155
+                c 0 0, 2 7, 4 2
+                c 0 0, 2 4, 4 0
+        " stroke="#763230" stroke-opacity="0.5" fill="none" />
+        <path d="M 302 164
+                c 0 0, 2 7, 4 2
+                c 0 0, 2 4, 4 0
+        " stroke="#763230" stroke-opacity="0.5" fill="none" />
         <!-- right eye -->
         <circle r="12.3" cx="329" cy="120" stroke="black" fill="white" />
         <!-- left black circle eye -->
