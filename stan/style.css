@@ -1,0 +1,13 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.box {
+  border: 2px dotted #00000066;
+  max-width: 100%;
+
+  /* $color-glasses: #F7E7E3; */
+}
