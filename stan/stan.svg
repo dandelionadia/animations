@@ -14,14 +14,45 @@
                 " stroke="black" stroke-width="1.5" fill="#2C2A26" />
         <!-- body -->
         <path d="M 230 215
-                c  0 0, -25 50, 30 165
+                c  0 0, -25 50, 30 167
                 c 0 0, 0 0, 140 0
-                c 0 0, 0 0, 35 -50
+                c 0 0, 0 0, 40 -80
+                c 0 0, 0 0, 0 -135
                 " stroke="black" stroke-width="2" fill="#2C2A26" />
-        <!-- body right
-        <path d="M 440 315
-                c  0 0, 0 10, -50 70
-                " stroke="black" stroke-width="1.5" fill="#2C2A26" /> -->
+        <path d="M 306 330
+                c  0 0, -12 20, -8 52
+                " stroke="black" stroke-width="1.5" fill="#2C2A26" />
+        <ellipse rx="5.5" ry="2.5%" cx="52.5%" cy="90%" stroke="black" stroke-width="1.8" fill="#202020"/>
+        <path d="M 310 382
+                c  0 0, 0 0, 10 0
+                c 6 -10, -13 -22, -11 0
+                " stroke="black" stroke-width="1.5" fill="#202020" />
+        <path d="M 319 335
+                c  0 0, 10 0, 25 -10
+                " stroke="black" stroke-width="1.5" fill="#2C2A26" />
+        <path d="M 320 380
+                c  0 0, 10 0, 20 -8
+                " stroke="black" stroke-width="1.5" fill="#2C2A26" />
+        <path d="M 320 345
+                c  0 0, 10 0, 20 10
+                " stroke="black" stroke-width="1.5" fill="#2C2A26" />
+        <path d="M 299 346
+                c  0 0, -10 0, -22 -10
+                " stroke="black" stroke-width="1.5" fill="#2C2A26" />
+        <path d="M 299 352
+                c  0 0, -10 0, -25 14
+                " stroke="black" stroke-width="1.5" fill="#2C2A26" />
+        <!-- right shoulder -->
+        <path d ="M 400 162
+                c 0 0, 20 5, 90 0
+                c 0 0, 10 2, -8 40
+                c 0 0, 40 100, 20 180
+                c 0 0, 0 0, -42 0
+                c 0 0, 0 0, -25 -90
+                " stroke="black" stroke-width="2" fill="#2C2A26" />
+        <path d ="M 468 205
+                c 0 0, -25 20, -35 80
+                " stroke="black" stroke-width="1.8" fill="none" />
         <!-- hair -->
         <!-- jacket -->
         <!-- jacket collar left -->
