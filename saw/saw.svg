@@ -109,4 +109,57 @@
                 c 0 0, 0 0, 5 -8
                 " stroke="black" stroke-width="1.5" fill="#DCE5E4" />
     </g>
+    <!-- wood -->
+    <g>
+    <!-- circle -->
+        <circle r="55" cx="350" cy="330" fill="#814923" />
+        <circle r="50" cx="350" cy="330" fill="#EEB85B" />
+        <circle r="2" cx="350" cy="330" fill="#D6882A" />
+        <ellipse rx="3.5" ry="1.5%" cx="50%" cy="82.5%" stroke="#D6882A" stroke-width="1.5" fill="none"/>
+        <ellipse rx="6" ry="2.5%" cx="50%" cy="82.5%" stroke="#D6882A" stroke-width="1.5" fill="none"/>
+        <ellipse rx="9" ry="4%" cx="50%" cy="82.5%" stroke="#D6882A" stroke-width="1.8" fill="none"/>
+        <ellipse rx="15" ry="5%" cx="50%" cy="82.5%" stroke="#D6882A" stroke-width="2" fill="none"/>
+        <ellipse rx="22" ry="6%" cx="50%" cy="82.5%" stroke="#D6882A" stroke-width="2" fill="none"/>
+        <ellipse rx="30" ry="7%" cx="50%" cy="82.5%" stroke="#D6882A" stroke-width="3" fill="none"/>
+        <ellipse rx="39" ry="8%" cx="50%" cy="82.5%" stroke="#D6882A" stroke-width="3" fill="none"/>
+        <ellipse rx="45" ry="10%" cx="50%" cy="82.5%" stroke="#D6882A" stroke-width="4" fill="none" />
+        <ellipse rx="50" ry="11.5%" cx="50%" cy="82.5%" stroke="#D6882A" stroke-width="2" fill="none" />
+        <!-- cracks -->
+        <path d="M 350 275
+                c 0 0, 0 0, 1.5 20
+                c 0 0, 0 0, 0 -20
+                z
+                " stroke="#421A00" stroke-width="0.5"
+                 stroke-opacity="0.7" fill="#421A00" fill-opacity="0.7" />
+        <path d="M 400 340
+                c 0 0, 0 0, -15 -5
+                c 0 0, 0 0, 15 7
+                " stroke="#421A00" stroke-width="0.5"
+                 stroke-opacity="0.7" fill="#421A00" fill-opacity="0.7" />
+        <path d="M 300 320
+                c 0 0, 0 0, 10 0
+                c 0 0, 0 0, -10 1
+                " stroke="#421A00" stroke-width="0.5"
+                 stroke-opacity="0.7" fill="#421A00" fill-opacity="0.7" />
+        <path d="M 345 345
+                c 0 0, 0 0, -10 10
+                c 0 0, 0 0, 0 1
+                " stroke="#421A00" stroke-width="0.5"
+                 stroke-opacity="0.7" fill="#421A00" fill-opacity="0.7" />
+        <path d="M 380 300
+                c 0 0, 0 0, -8 10
+                c 0 0, 0 0, 0 1
+                " stroke="#421A00" stroke-width="0.5"
+                 stroke-opacity="0.5" fill="#421A00" fill-opacity="0.5" />
+        <path d="M 380 320
+                c 0 0, 0 0, -8 2
+                c 0 0, 0 0, 0 1
+                " stroke="#421A00" stroke-width="0.5"
+                 stroke-opacity="0.5" fill="#421A00" fill-opacity="0.5" />
+        <path d="M 375 370
+                c 0 0, 0 0, -8 -10
+                c 0 0, 0 0, 0 1
+                " stroke="#421A00" stroke-width="0.5"
+                 stroke-opacity="0.5" fill="#421A00" fill-opacity="0.5" />
+    </g>
 </svg>
