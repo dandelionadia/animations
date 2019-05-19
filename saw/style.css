@@ -6,3 +6,16 @@
 /* $color-wood-bark: #814923; */
 /* $color-wood-line: #D6882A; */
 /* $color-dark-brown-wood: #421A00; */
+
+.animationSaw {
+    transform-origin: 10px 0px;
+    animation: moveSaw 1.5s infinite;
+    /* 0% start state */
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveSaw {
+    0% { transform: translate(-5%);}
+    50% {transform: translate(5%);}
+    100% {transform: translate(-5%);}
+  }
