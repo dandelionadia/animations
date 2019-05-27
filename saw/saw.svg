@@ -3,45 +3,6 @@
     <g>
     <!-- lumberjack -->
     <!-- face -->
-    <rect width="10%" height="15" x="120" y="170" fill="#FAF8D0"/>
-    <!-- hat -->
-        <path d="M 110 125
-                c 0 0, 0 0, 0 8
-                c  0 0, 0 0, 80 0
-                c 0 0, 0 0, 0 -8
-                c 0 0, 0 0, -33 -8
-                c 0 0, 0 0, -47 8
-                " fill="#376689" />
-        <rect width="14%" height="40"  x="100" y="132" fill="#4B7FA6" />
-    <!-- beard -->
-        <path d="M 107 172
-            c 0 0, 0 0, 0 35
-            c 0 0, 0 0, 50 18
-            c 0 0, 0 0, 35 -15
-            c 0 0, 0 0, 0 -38
-            c 0 0, 0 0, -12 0
-            c 0 0, 0 0, 0 12
-            c 0 0, 0 0, -60 0
-            c 0 0, 0 0, 0 -12
-            z
-            " fill="#534141" />
-        <!-- nose -->
-        <rect width="13px" height="22" x="155" y="172" fill="#EBD8A7" />
-
-        <!-- control lines -->
-        <path d="M 0 120
-                c 0 0, 0 0, 1000 0
-                " stroke="black" />
-        <path d="M 0 270
-                c 0 0, 0 0, 1000 0
-                " stroke="black" />
-        <path d="M 0 380
-                c 0 0, 0 0, 1000 0
-                " stroke="black" />
-        
-    </g><g>
-    <!-- lumberjack -->
-    <!-- face -->
         <rect width="10%" height="15" x="120" y="170" fill="#FAF8D0"/>
     <!-- hat -->
         <path d="M 110 125
