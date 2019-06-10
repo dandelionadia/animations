@@ -13,6 +13,11 @@
 /* $color-nose: #EBD8A7; */
 /* $colo-body: #AE6565; */
 
+#container {
+    display: flex;
+    justify-content: center;
+}
+
 .animationSaw {
     transform-origin: 10px 0px;
     animation: moveSaw 1.5s infinite;
