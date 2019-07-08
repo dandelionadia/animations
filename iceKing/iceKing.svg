@@ -1,4 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" height="400" viewBox="0 0 700 400" preserveAspectRatio="xMinYMin meet">
+    //background
+        //light grey
+        <path d="M 0 315
+                c 0 0, 80 -150, 150 -200
+                c 0 0, -10 -40, 10 -120
+                c 0 0, 0 0, -160 0
+                "  stroke="#2488AB" fill="#5796C2" />
+        //blue
+        <path d="M 0 315
+                c 0 0, 0 0, 200 -45
+                c 0 0, -20 0, -50 -155
+                c 0 0, -50 20, -150 200
+                "  stroke="#2488AB" fill="#43a7f3" />
+        //dark blue
+        <path d="M 160 0
+                c 0 0, 10 60, 170 270
+                c 0 0, 0 0, -130 0
+                c 0 0, -90 -100, -40 -270
+                "  stroke="#2488AB" fill="#406CCD" />
     //floor
     <g>
     //blue
@@ -9,10 +28,10 @@
                 z
                 " stroke="#2488AB" fill="#63DCFB" />
     //light-blue
-        <path d="M 0 335
-                c 0 0, 0 0, 120 -15
+        <path d="M 0 315
+                c 0 0, 0 0, 50 -15
                 c  0 0, 0 0, 350 100
-                c 0 0, 0 0, -500 0
+                c 0 0, 0 0, -400 0
                 " stroke="#2488AB" fill="#81FBFC" />
     //light-grey
         <path d="M 50 300
