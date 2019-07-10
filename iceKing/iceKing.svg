@@ -93,5 +93,36 @@
                 c 0 0, 0 0, -120 15
                 z
                 " stroke="#2488AB" fill="#9FD0E7" />
+    //columns
+        <!-- left -->
+        <path d="M 0 0
+                c 0 0, 0 0, 100 0
+                c 0 0, -70 100, 0 340
+                c 0 20, -50 -5, -100 10
+                " stroke="#2488AB"  stroke-width="1.5" fill="#81FBFC" />
+        // dark blue
+        <path d="M 70 100
+                c 0 0, 0 0, -70 100
+                c 0 0, 0 0, 20 70
+                c 0 0, 40 10, 64 5
+                c 0 0, -20 -70, -13 -175
+                "  stroke="#2488AB" fill="#6db8f1" />
+        <path d="M 12 240
+                c 0 0, 0 0, -12 18
+                c 0 0, 0 0, 0 -60
+                z
+                "  stroke="#2488AB" fill="#6db8f1" />
+        //blue
+        <path d="M 11 240
+                c 0 0, 0 0, 30 105
+                c 0 0, -20 -1, -42 4
+                c 0 0, 0 0, -2 -90
+                z
+                "  stroke="#2488AB" fill="#63DCFB" />
+        <path d="M 0 0
+                c 0 0, 0 0, 30 0
+                c 0 0, 0 0, -30 80
+                z
+                "  stroke="#2488AB" fill="#63DCFB" />
     </g>
 </svg>
