@@ -159,6 +159,53 @@
                     c 0 0, 30 -40, -70 -200
                     z
                     " stroke="#1A5380"  fill="#2882C0" />
+        //icicles
+            //medium
+            <path d="M 540 235
+                    c 0 0, 0 0, 30 0
+                    c 0 0, 0 0, -10 -55
+                    c 0 0, -2 -6, -4 0 
+                    c 0 0, 0 0, -16 55
+                    " stroke="#2488AB" stroke-width="1.5" fill="#ADFEFE" />
+            //shadow
+            <path d="M 540 235
+                    c 0 0, 0 0, 30 0
+                    c 0 0, 0 0, -10 -55
+                    c 0 0, 0 35, -10 50
+                    " sttroke="red" fill-opacity="0.15" />
+            // big
+            <path d="M 525 265
+                    c 0 0, 10 5, 27 0
+                    c 0 0, 10 0, -5 -70
+                    c 0 0, 0 0, -2 -30
+                    c 0 0, -2 -6, -4 0
+                    c 0 0, 0 0, -4 30 
+                    c 0 0, -5 10, -12 70
+                    " stroke="#2488AB" stroke-width="1.5" fill="#ADFEFE" />
+            //shadow
+            <path d="M 525 265
+                    c 0 0, 10 0, 20 -20
+                    c 0 0 , 3 0,  -2 -80
+                    c 0 0, 0 0, 12 80
+                    c 0 0, 0 0, 0 20
+                    c 0 0, 0 0, -30 2
+                    " sttroke="red" fill-opacity="0.15" />
+             //small
+            <path d="M 495 265
+                    c 0 0, 10 5, 20 0
+                    c 0 0 , 0 -10, -5 -30
+                    c 0 0 , 0 0, -2 -15
+                    c 0 0 , -2 -6, -4 0
+                    c 0 0 , 0 0, -2 15
+                    c 0 0 , -5 15, -7 30
+                     " stroke="#2488AB" stroke-width="1.5" fill="#ADFEFE" />
+            //shadow
+            <path d="M 506 219
+                    c 0 0, 0 0, 10 48
+                    c 0 0, 0 0, -20 0
+                    c 0 0, 15 10, 10 -48
+                    " sttroke="red" fill-opacity="0.15" />
+            ///
             <path d="M 560 0
                     c 0 0, 70 80, -20 265
                     c 0 0, 0 10, 65 15
@@ -166,10 +213,10 @@
                     z
                     " stroke="#2488AB" stroke-width="1.5" fill="#63DCFB" />
             <path d ="M 560 0
-                        c 0 0, 25 20, 24 130
-                        c 0 0, 0 0, 48 10
-                        c 0 0, 9 -50, 5 -140
-                        " stroke="#2488AB" stroke-width="1.5" fill="#6db8f1"/>
+                    c 0 0, 25 20, 24 130
+                    c 0 0, 0 0, 48 10
+                    c 0 0, 9 -50, 5 -140
+                    " stroke="#2488AB" stroke-width="1.5" fill="#6db8f1"/>
             <!-- absolute -->
             <path d="M 665 0
                     c 0 0, 10 50, 5 170
@@ -181,7 +228,7 @@
                     c 0 0, 0 0, -60 210
                     c 0 0, 0 5, 60 5
                     " stroke="#2488AB" stroke-width="1.5"  fill="#ABFDFE" />
-         //icicles
+         //icicle
             // medium left
             <path d="M 123 235
                     c 0 0, 0 0, 0 20
