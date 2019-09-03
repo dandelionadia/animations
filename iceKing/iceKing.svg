@@ -93,6 +93,16 @@
                 c 0 0, 0 0, -120 15
                 z
                 " stroke="#2488AB" stroke-width="1.5" fill="#9FD0E7" />
+    //shadow
+            <path d="M 98 330
+                    c 0 0, 0 -55, 232 -70
+                    c 0 0, 0 0, 0 -20
+                    c 0 0, 0 0, -150 20
+                    c 0 0, -170 40, -50 -270 
+                    c 0 0, 0 0, -40 0
+                    c 0 0, 0 0, -50 250
+                    z
+                    " fill-opacity="0.25" />
     //icicles
             // big left
             <path d="M 78 308
@@ -146,6 +156,13 @@
                 c 0 0, 0 0, -30 80
                 z
                 "  stroke="#2488AB" stroke-width="1.5" fill="#63DCFB" />
+        //shadow
+            <path d="M 0 300
+                    c 0 0, 20 -10, 50 10
+                    c 0 0, 20 20, 50 30
+                    c 0 0, 0 20, -50 10
+                    c 0 0, -30 -10, -50 10
+                    " fill-opacity="0.30" />
         <!-- right -->
             <!-- relative -->
             <path d="M 630 0
@@ -299,5 +316,10 @@
                     c 0 0, 0 0, -10 0
                     z
                     " sttroke="red" fill-opacity="0.15" />
+            //shadow
+            <path d="M 134 308
+                    c 0 0, -10 10, 12 0
+                    c 0 0, 0 0, 0 0
+                    " fill-opacity="0.30" />
     </g>
 </svg>
