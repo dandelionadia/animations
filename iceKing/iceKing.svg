@@ -103,6 +103,7 @@
                     c 0 0, 0 0, -50 250
                     z
                     " fill-opacity="0.25" />
+    </g>
     //icicles
             // big left
             <path d="M 78 308
@@ -279,8 +280,7 @@
                     c 0 0, 0 0, 0 -20
                     c 0 0, -30 9, -40 -10
                     c 0 0, -15 0, 20 -120
-                    " fill-opacity="0.25" />
-            
+                    " fill-opacity="0.25" />            
          //icicle
             // medium left
             <path d="M 123 235
@@ -321,7 +321,6 @@
                     c 0 0, -10 10, 12 0
                     c 0 0, 0 0, 0 0
                     " fill-opacity="0.30" />
-    </g>
     <g>
     //drums
         //medium
@@ -353,7 +352,15 @@
                     " stroke="black" stroke-opacity="0.6" stroke-width="1.2" fill="#B5C525" />
             <ellipse rx="30" ry="1.5%" cx="60%" cy="52.3%" fill="#C4FCFB" stroke="grey" />
             <ellipse rx="25" ry="0.7%" cx="60%" cy="52.1%" fill="white"  stroke="grey" />
-            
+            <path d="M 400 214
+                    c 0 0, 0 0, 0 18
+                    " stroke="black" />
+            <path d="M 420 215
+                    c 0 0, 0 0, 0 20
+                    " stroke="black" />
+            <path d="M 440 214
+                    c 0 0, 0 0, 0 19
+                    " stroke="black" />
         //big
             //grey
             <ellipse rx="58" ry="13.8%" cx="48%" cy="65%" fill="#CBD995"  stroke="black" stroke-opacity="0.5" />
@@ -363,5 +370,58 @@
             <ellipse rx="58" ry="13.8%" cx="50%" cy="65%" fill="#CBD995" fill-opacity="0.7"  stroke="black" stroke-opacity="0.5" />
             //green
             <ellipse rx="55" ry="13%" cx="50%" cy="65%" fill="white" stroke="black" stroke-opacity="0.5" />
+            <g>
+            //legs left
+                <path d="M 300 300
+                        c 0 0, 0 0, -10 10
+                        c 0 0, 0 0, 2 3
+                        c 0 0, 0 0, 11 -12
+                        z
+                        " stroke="black" stroke-opacity="0.6" fill="#81FBFC" />
+                <path d="M 290 308
+                        c 0 0, 0 0, 6 3
+                        c 0 0, 0 0, -2 5
+                        c 0 0 , 0 0, -8 0
+                        z
+                        " />
+                //2
+                <path d="M 310 305
+                        c 0 0, 0 0, -10 10
+                        c 0 0, 0 0, 2 3
+                        c 0 0, 0 0, 11 -12
+                        z
+                        " stroke="black" stroke-opacity="0.6" fill="#81FBFC" />
+                <path d="M 301 312
+                        c 0 0, 0 0, 6 2
+                        c 0 0, 0 0, -2 5
+                        c 0 0 , 0 0, -8 0
+                        z
+                        " />
+            //legs right
+                <path d="M 385 305
+                        c 0 0, 0 0, 8 10
+                        c 0 0, 0 0, -4 2
+                        c 0 0, 0 0, -8 -10
+                        " stroke="black" stroke-opacity="0.6" fill="#81FBFC" />
+                <path d="M 384 312
+                        c 0 0, 0 2, 6 -2
+                        c 0 0, 0 0, 4 6
+                        c 0 0, -3 4, -6 2
+                        z
+                        " />
+                //2
+                <path d="M 378 308
+                        c 0 0, 0 0, 6 8
+                        c 0 0, 0 0, -3 2
+                        c 0 0, 0 0, -6 -8
+                        z
+                        " stroke="black" stroke-opacity="0.6" fill="#81FBFC" />
+                <path d="M 375 312
+                        c 0 0, 0 2, 6 -2
+                        c 0 0, 0 0, 4 6
+                        c 0 0, -3 4, -6 2
+                        z
+                        " />
+            </g>
     </g>
 </svg>
