@@ -322,6 +322,41 @@
                     c 0 0, 0 0, 0 0
                     " fill-opacity="0.30" />
     <g>
+    //drum plates
+        //left
+            //leg
+            <path d="M 263 262
+                    c 0 0, 0 0, 0 10
+                    c 0 0, 0 0, -7 10
+                    c 0 0, 0 0, 2 2
+                    c 0 0, 0 0, 4 -5 
+                    c 0 0, 2.5 4, 5 0
+                    c 0 0, 0 0, 4 5
+                    c 0 0, 0 0, 2 -2
+                    c 0 0, 0 0, -7 -10
+                    c 0 0, 0 0, 0 -7
+                    z
+                    " stroke="black" stroke-opacity="0.6" fill="white" />
+            <path d="M 264.5 274.5
+                    c 0 0, 0 0, -2 2
+                    c 0 0, 0 0, 2 2
+                    c 0 0, 0 0, 2 -2
+                    c 0 0, 0 0, -2 -2
+                    "  stroke="black" stroke-opacity="0.6" fill="#63DCFB" />
+            <path d="M 257 278
+                    c 0 0 , 0 3, 4 4
+                    c 0 0, 0 0, -4 4
+                    c 0 0, -3 0, -4 -4
+                    z
+                    " />
+             <path d="M 271.5 278
+                    c 0 0 , 0 0, 4 4
+                    c 0 0, 0 4, -4 4
+                    c 0 0, 0 0, -4 -4
+                    c 0 0, 3 0, 4 -4
+                    " />
+        //right
+        //medium
     //drums
         //medium
             <ellipse rx="33" ry="2%" cx="40%" cy="65.2%" fill="#C4FCFB" stroke="grey" />
@@ -343,6 +378,41 @@
             <path d="M 300 216
                     c 0 0, 0 0, 0 47
                     " stroke="black" stroke-width="2" stroke-opacity="0.5" />
+        //legs 
+            //left
+            <path d="M255 266
+                    c 0 0, 0 0, 0 6
+                    c 0 0, 0 0, -6 5
+                    c 0 0, 0 0, 0 12
+                    c 0 0, 0 0, 3 0
+                    c 0 0, 0 0, 0 -10
+                    c 0 0, 0 0, 6 -5
+                    c 0 0, 0 0, 0 -7
+                    z
+                    " stroke="black" stroke-opacity="0.6" fill="white" />
+            <path d="M248 285
+                    c 0 0, 0 0, 0 8
+                    c 0 0, 0 2, 5 0
+                    c 0 0, 0 0, 0 -8
+                    c 0 0, 0 2, -5 0
+                    " stroke="black" />
+            //right
+            <path d="M274 269
+                    c 0 0, 0 0, 0 6
+                    c 0 0, 0 0, 2 8
+                    c 0 0, 0 0, 0 12
+                    c 0 0, 0 0, 3 0
+                    c 0 0, 0 0, 0 -10
+                    c 0 0, 0 0, -2 -10
+                    c 0 0, 0 0, 0 -6
+                    z
+                    " stroke="black" stroke-opacity="0.6" fill="white" />
+            <path d="M275 286
+                    c 0 0, 0 0, 0 8
+                    c 0 0, 0 2, 5 0
+                    c 0 0, 0 0, 0 -8
+                    c 0 0, 0 2, -5 0
+                    " stroke="black" />
         //small
             <ellipse rx="30" ry="1.7%" cx="60%" cy="57.9%" fill="#C4FCFB" stroke="grey" />
             <path d="M 392 210
@@ -377,7 +447,7 @@
                         c 0 0, 0 0, 2 3
                         c 0 0, 0 0, 11 -12
                         z
-                        " stroke="black" stroke-opacity="0.6" fill="#81FBFC" />
+                        " stroke="black" stroke-opacity="0.6" fill="white" />
                 <path d="M 290 308
                         c 0 0, 0 0, 6 3
                         c 0 0, 0 0, -2 5
@@ -390,7 +460,7 @@
                         c 0 0, 0 0, 2 3
                         c 0 0, 0 0, 11 -12
                         z
-                        " stroke="black" stroke-opacity="0.6" fill="#81FBFC" />
+                        " stroke="black" stroke-opacity="0.6" fill="white" />
                 <path d="M 301 312
                         c 0 0, 0 0, 6 2
                         c 0 0, 0 0, -2 5
@@ -402,7 +472,7 @@
                         c 0 0, 0 0, 8 10
                         c 0 0, 0 0, -4 2
                         c 0 0, 0 0, -8 -10
-                        " stroke="black" stroke-opacity="0.6" fill="#81FBFC" />
+                        " stroke="black" stroke-opacity="0.6" fill="white" />
                 <path d="M 384 312
                         c 0 0, 0 2, 6 -2
                         c 0 0, 0 0, 4 6
@@ -415,7 +485,7 @@
                         c 0 0, 0 0, -3 2
                         c 0 0, 0 0, -6 -8
                         z
-                        " stroke="black" stroke-opacity="0.6" fill="#81FBFC" />
+                        " stroke="black" stroke-opacity="0.6" fill="white" />
                 <path d="M 375 312
                         c 0 0, 0 2, 6 -2
                         c 0 0, 0 0, 4 6
