@@ -322,8 +322,31 @@
                     c 0 0, 0 0, 0 0
                     " fill-opacity="0.30" />
     <g>
-    //drum plates
+    //drum cymbals
         //left
+            //body center
+            <path d="M263 152
+                    c 0 0, 0 0, 0 50
+                    c 0 0, 0 0, 3 0
+                    c 0 0, 0 0, 0 -48
+                    z
+                    "  stroke="black" stroke-opacity="0.6" fill="white" />
+            //cymbal
+            <path d="M240 140
+                    c 0 0, 15 25, 50 30
+                    c 0 0, 10 0, 8 -8
+                    c 0 0, -15 -25, -50 -30
+                    c 0 0, -10 0, -8 8
+                    "  stroke="#3F3C2E" stroke-width="2" stroke-opacity="0.6" fill="#F6B409" />
+            <path d="M269 135
+                    c 0 0, 0 0, -10 4
+                    c 0 0, 0 15, 22 15
+                    c 0 0, 0 0, 1 -10
+                    "  stroke="#3F3C2E" stroke-width="1.5" stroke-opacity="0.6" fill="#F6B409" />
+            <path d="M269 135
+                    c 0 0, 0 10, 13 10
+                    c 0 0, 0 -8, -13 -10
+                    "  stroke="#3F3C2E" stroke-width="1.5" stroke-opacity="0.6" fill="#F6B409" />
             //leg
             <path d="M 263 262
                     c 0 0, 0 0, 0 10
@@ -355,6 +378,24 @@
                     c 0 0, 0 0, -4 -4
                     c 0 0, 3 0, 4 -4
                     " />
+            //body top
+            <path d="M286 119
+                    c 0 0, 0 0, -12 20
+                    c 0 0, 0 3, 3 2
+                    c 0 0, 0 0, 12 -20
+                    c 0 0, 0 -3, -3 -2
+                    " stroke="black" stroke-opacity="0.6" fill="white" />
+            //light
+            <path d="M 275 144
+                    c 0 0, 0 0, 5 2
+                    c 0 0, 0 0, -2 7
+                    c 0 0, 0 0, -5 -1
+                    " fill="white" fill-opacity="0.5" />
+            <path d="M 280 155
+                    c 0 0, 0 0, 10 12
+                    c 0 0, 2 4, -16 -3
+                    c 0 0, 0 0, 0 -10
+                    " fill="white" fill-opacity="0.5" />
         //right
         //medium
     //drums
