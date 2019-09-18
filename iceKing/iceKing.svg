@@ -472,6 +472,44 @@
             <path d="M 440 214
                     c 0 0, 0 0, 0 19
                     " stroke="black" />
+
+        //leg
+            <path d="M 420 280
+                    c 0 0, 0 0, 0 10
+                    c 0 0, 0 0, -7 10
+                    c 0 0, 0 0, 2 2
+                    c 0 0, 0 0, 4 -5 
+                    c 0 0, 2.5 4, 5 0
+                    c 0 0, 0 0, 4 5
+                    c 0 0, 0 0, 2 -2
+                    c 0 0, 0 0, -7 -10
+                    c 0 0, 0 0, 0 -7
+                    z
+                    " stroke="black" stroke-opacity="0.6" fill="white" />
+            <path d="M 421.5 292.5
+                    c 0 0, 0 0, -2 2
+                    c 0 0, 0 0, 2 2
+                    c 0 0, 0 0, 2 -2
+                    c 0 0, 0 0, -2 -2
+                    "  stroke="black" stroke-opacity="0.6" fill="#63DCFB" />
+            <path d="M 413 298
+                    c 0 0 , 0 3, 4 4
+                    c 0 0, 0 0, -4 4
+                    c 0 0, -3 0, -4 -4
+                    z
+                    " />
+             <path d="M 430 298
+                    c 0 0 , 0 0, 4 4
+                    c 0 0, 0 4, -4 4
+                    c 0 0, 0 0, -4 -4
+                    c 0 0, 3 0, 4 -4
+                    " />
+        //body center
+            <path d="M420 285
+                    c 0 0, 0 0, 0 -47
+                    c 0 0, 0 0, 3 0
+                    c 0 0, 0 0, 0 47
+                    "  stroke="black" stroke-opacity="0.6" fill="white" />
         //big
             //grey
             <ellipse rx="58" ry="13.8%" cx="48%" cy="65%" fill="#CBD995"  stroke="black" stroke-opacity="0.5" />
