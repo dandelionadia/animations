@@ -430,9 +430,35 @@
                     " />
         //body center
             <path d="M474 270
-                    c 0 0, 0 0, 0 -90
+                    c 0 0, 0 0, 0 -110
                     c 0 0, 0 0, 3 0
-                    c 0 0, 0 0, 0 90
+                    c 0 0, 0 0, 0 110
+                    "  stroke="black" stroke-opacity="0.6" fill="white" />
+        //body top
+            <path d="M454 124
+                    c 0 0, 0 0, -8 -10
+                    c 0 0, -4 -1, -2 3
+                    c 0 0, 0 0, 8 10
+                    z
+                    "  stroke="black" stroke-opacity="0.6" fill="white" />
+        //cymbal 
+            <path d="M 485 113
+                    c 0 0, 0 0, -20 5
+                    c 0 0, -13 0, -21 15
+                    c 0 0, 0 0, -9 22
+                    z
+                    " stroke="black" stroke-opacity="0.6" fill="#fdee00" />
+            <ellipse rx="9" ry="33" cx="50%" cy="55%"   stroke="black" stroke-opacity="0.6" stroke-width="1.5" fill="#D58510" transform="rotate(49 497 300)"/>
+            <path d="M 468 120
+                    c 0 0, 0 13, -28 25
+                    " stroke="black" stroke-opacity="0.6" fill="none" />
+        //body medium
+            <circle r="4.5" cx="67.9%" cy="39%"   stroke="black" stroke-opacity="0.6" stroke-width="1.5" fill="white" />
+             <circle r="2" cx="67.9%" cy="39%"   stroke="black" stroke-width="1.5" stroke-opacity="0.6" fill="white" />
+            <path d="M475 153
+                    c 0 0, 0 0, -17 -24
+                    c 0 0, 0 0, -3 2
+                    c 0 0, 0 0, 17 23
                     "  stroke="black" stroke-opacity="0.6" fill="white" />
         //medium
             //leg
