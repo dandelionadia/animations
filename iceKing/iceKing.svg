@@ -499,6 +499,43 @@
                         c 0 0, 0 0, 0 90
                         
                         "  stroke="black" stroke-opacity="0.6" fill="white" />
+            //cymbal
+                <path d="M 410 180
+                        c 0 0, 0 0, 70 0
+                        c 0 0, 3 0, 0 2
+                        c 0 0, 0 0, -20 4
+                        c 0 0, -10 10, -30 0
+                        c 0 0, 0 0, -20 -4
+                        c 0 0, 0 0, 0 0
+                        z
+                        " stroke="black" stroke-width="1.5" stroke-opacity="0.6" fill="#F6B409" />
+                <path d="M 411 179
+                        c 0 0, -3 0, 0 -2
+                        c 0 0, 0 0, 19 -2
+                        c 0 0, 15 -14, 30 0
+                        c 0 0, 0 0, 20 3
+                        c 0 0, 4 4, 1 2
+                        " stroke="black" stroke-width="1.5" stroke-opacity="0.6" fill="#F6B409" />
+            //body top
+            <path d="M 444 168.5
+                    c 0 0, 0 0, 0 -4
+                    c 0 0, 2 -3, 4 0
+                    c 0 0, 0 0, 0 4
+                    
+                    " stroke="black"  stroke-width="1" fill="white" />
+            <path d="M 445 164
+                    c 0 0, 0 0, 0 -5
+                    c 0 0, 0 0, 2 -2
+                    c 0 0, 0 0, 0 5.5
+                    c 0 0, 0 0, 0 0
+                    " stroke="black"  stroke-width="1" fill="white" />
+            //light
+                <path d="M 445 170
+                        c 0 0, 0 0, 5 9
+                        c 0 0, 0 0, 10 0
+                        c 0 0, 0 0, -10 -9
+                        z
+                        " fill="white" fill-opacity="0.5" />
     //drums
         //medium
             <ellipse rx="33" ry="2%" cx="40%" cy="65.2%" fill="#C4FCFB" stroke="grey" />
