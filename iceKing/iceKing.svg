@@ -992,4 +992,72 @@
             <ellipse rx="2" ry="2" cx="51.8%" cy="70.7%" fill="white"/>
             <ellipse rx="2" ry="2" cx="52.2%" cy="73.5%" fill="white"/>
     </g>
+    //Gunter
+    <g>
+    //fins
+        //left fin
+        <path d="M 500 275
+                c 0 0, 10 15, -5 35
+                c 0 0, -3 6, -6 0
+                c 0 0, -5 -10, 2 -37
+                c 0 0, 0 0, 0 0
+                " stroke="white" stroke-opacity="0.4" />
+    //body
+        //black
+        <path d="M 500 250
+                c 0 0, 20 -20, 40 0
+                c 0 0, 18 20, 5 70
+                c 0 0, -23 5, -45 0
+                c 0 0, -20 -30, 0 -70
+                " stroke="black" />
+        //white
+        <path d="M 500 252
+                c 0 0, 15 -15, 30 0
+                c 0 0, 12 15, 0 40
+                c 0 0, -5 20, 5 30
+                c 0 0, 0 2, -35 0
+                c 0 0, -21 -33, 0 -70
+                " fill="white" />
+    //eyes
+        //left
+            <circle r="7" cx="71.6%" cy="65%" fill="black"/>
+            <circle r="4.5" cx="71.6%" cy="64.7%" fill="white"/>
+            <path d="M 498 255
+                c 0 0, 0 -7, 10 0
+                z
+                " fill="white" />
+            <path d="M 495 255.5
+                c 0 0, 0 0, 13 0
+                " stroke="black" />
+        //right
+            <circle r="7" cx="74.5%" cy="65%" fill="black"/>
+            <circle r="4.5" cx="74.5%" cy="64.7%" fill="white"/>
+            <path d="M 516 256
+                c 0 0, 0 -10, 14 0
+                z
+                " fill="white" />
+            <path d="M 515 256
+                c 0 0, 0 0, 13 0
+                " stroke="black" />
+    //nose
+        <path d="M 512 262
+                c 0 0, 5 4, 0 8
+                c 0 0, 0 2, -15 -5
+                c 0 0, 0 -2, 0 -2
+                c 0 0, 0 -2, 15 -1
+                " stroke="black" fill="yellow" />
+        <path d="M 514 265
+                c 0 0, 0 5, -2 4
+                c 0 0, 0 4, -15 -5
+                " stroke="black" fill="#AE8201" />
+    //fins
+        //right fin
+            <path d="M 545 275
+                c 0 0, 10 15, 4 35
+                c 0 0, -3 6, -6 0
+                c 0 0, -10 -15, -5 -35
+                c 0 0, 0 0, 0 0
+                c 0 0, 0 0, 0 0
+                " stroke="white" stroke-opacity="0.4" />
+    </g>
 </svg>
