@@ -124,3 +124,23 @@ body {
     transform: rotate(0deg);
   }
 }
+
+.muveDrumsMedium {
+  transform-origin: 262px 231px;
+  animation: muveCymbal var(--animation) 0.56s infinite;
+}
+
+@keyframes muveCymbal {
+  0% {
+    transform: rotate(1deg);
+  }
+  14% {
+    transform: rotate(0deg);
+  }
+  29% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
