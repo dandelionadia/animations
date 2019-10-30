@@ -26,8 +26,12 @@
   animation: none !important;
 } */
 
+body {
+  --animation: 1s;
+}
+
 .sleeveRight {
-  animation: moveSleeveRight 0.1s infinite;
+  animation: moveSleeveRight calc(var(--animation) / 4) infinite;
   transform-origin: 60% 40%;
 }
 
@@ -44,7 +48,7 @@
 }
 
 .handRight {
-  animation: moveHandRight 0.1s infinite;
+  animation: moveHandRight calc(var(--animation) / 4) infinite;
   transform-origin: 47% 41%;
 }
 
@@ -54,6 +58,26 @@
   }
   50% {
     transform: rotate(-50deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.handLeft {
+  animation: moveHandLeft var(--animation) 0.5s infinite;
+  transform-origin: 37% 48%;
+}
+
+@keyframes moveHandLeft {
+  0% {
+    transform: rotate(0);
+  }
+  14% {
+    transform: rotate(8deg);
+  }
+  29% {
+    transform: rotate(0deg);
   }
   100% {
     transform: rotate(0deg);
