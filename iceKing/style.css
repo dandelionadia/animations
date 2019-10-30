@@ -74,7 +74,7 @@ body {
     transform: rotate(0);
   }
   14% {
-    transform: rotate(8deg);
+    transform: rotate(10deg);
   }
   29% {
     transform: rotate(0deg);
@@ -106,19 +106,19 @@ body {
 }
 
 .muveCymbal {
-  transform-origin: 250px 150px;
+  transform-origin: 206px 150px;
   animation: muveCymbal calc(var(--animation) / 4) infinite;
 }
 
 @keyframes muveCymbal {
   0% {
-    transform: rotate(5deg);
+    transform: rotate(10deg);
   }
   14% {
     transform: rotate(0deg);
   }
   29% {
-    transform: rotate(5deg);
+    transform: rotate(10deg);
   }
   100% {
     transform: rotate(0deg);
