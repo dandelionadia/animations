@@ -83,3 +83,24 @@ body {
     transform: rotate(0deg);
   }
 }
+
+.animationEyes {
+  transform: scaleX(1);
+  transform-origin: 5px 150px;
+  animation: muveEyes 2.2s infinite;
+}
+
+@keyframes muveEyes {
+  5% {
+    transform: scaleY(1);
+  }
+  10% {
+    transform: scaleY(0.1);
+  }
+  20% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
