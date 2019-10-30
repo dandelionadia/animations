@@ -144,3 +144,20 @@ body {
     transform: rotate(0deg);
   }
 }
+
+.muveDrumBig {
+  transform-origin: 358px 255px;
+  animation: muveDrumBig var(--animation) infinite;
+}
+
+@keyframes muveDrumBig {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(0.99);
+  }
+}
