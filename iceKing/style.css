@@ -21,3 +21,41 @@
 
 /* cymbal */
 /* $color-cymbal: #F6B409; */
+
+/* * {
+  animation: none !important;
+} */
+
+.sleeveRight {
+  animation: moveSleeveRight 0.1s infinite;
+  transform-origin: 60% 40%;
+}
+
+@keyframes moveSleeveRight {
+  0% {
+    transform: rotate(0.8deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0.8deg);
+  }
+}
+
+.handRight {
+  animation: moveHandRight 0.1s infinite;
+  transform-origin: 47% 41%;
+}
+
+@keyframes moveHandRight {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(-50deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
