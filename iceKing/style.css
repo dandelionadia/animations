@@ -87,7 +87,7 @@ body {
 .animationEyes {
   transform: scaleX(1);
   transform-origin: 5px 150px;
-  animation: muveEyes 2.2s infinite;
+  animation: muveEyes 2.3s infinite;
 }
 
 @keyframes muveEyes {
@@ -102,5 +102,25 @@ body {
   }
   100% {
     transform: scaleY(1);
+  }
+}
+
+.muveCymbal {
+  transform-origin: 250px 150px;
+  animation: muveCymbal calc(var(--animation) / 4) infinite;
+}
+
+@keyframes muveCymbal {
+  0% {
+    transform: rotate(5deg);
+  }
+  14% {
+    transform: rotate(0deg);
+  }
+  29% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
