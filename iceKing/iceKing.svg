@@ -1002,7 +1002,7 @@
                 c 0 0, -5 -10, 2 -37
                 c 0 0, 0 0, 0 0
                 " stroke="white" stroke-opacity="0.4" />
-    //fins
+    //fins bottom
     <path d="M 505 320
             c 0 0, -5 5, 0 5
             c 0 0, 0 5, 5 0
