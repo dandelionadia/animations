@@ -36,4 +36,27 @@
           " stroke="#809621" fill="#809621" />
   <!-- the pupil -->
   <circle r="5" cx="375px" cy="155px" />
+  <!-- eye left -->
+  <!-- black background -->
+    <path d="M 330 150
+            c 0 0, -20 -1, -40 4
+            " stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 327 152
+           c -5 20, -30 25, -35 5
+           v -3
+           z
+        " stroke="black" stroke-width="3" stroke-linecap="round" fill="black" />
+      <!-- iris -->
+  <path d="M 295 155
+           c 0 15, 24 20, 33 -3
+           z
+        " stroke="black" stroke-linecap="round" fill="#D2EA25" />
+     <!-- shadow -->
+  <path d="M 295 155
+          c 0 0, 0 0, 31 -3
+          v 3
+          c 0 0, 0 0, -30 3
+          " stroke="#809621" stroke-linecap="round" fill="#809621" />
+  <!-- the pupil -->
+  <circle r="5" cx="313px" cy="155px" />
 </svg>
