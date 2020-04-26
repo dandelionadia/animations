@@ -1,6 +1,10 @@
  <svg xmlns="http://www.w3.org/2000/svg" height="400" viewBox="0 0 600 380" preserveAspectRatio="xMinYMin meet">
 	<!-- background -->
   <rect width="100%" height="100%" fill="#030a24"/>
+	<!-- hat bacground -->
+	<ellipse rx="220" ry="30%" cx="55%" cy="10%" stroke="black" stroke-width="2" fill="#11345C"/>
+	<ellipse rx="210" ry="30%" cx="45.5%" cy="10%" stroke="black" stroke-width="2"  fill="#2D4D65"/>
+	<ellipse rx="210" ry="30%" cx="46%" cy="10%"  fill="#2D4D65"/>
 	<!-- skin of the face -->
 	<g>
 		<ellipse rx="24.2%" ry="25%" cx="50.8%" cy="65%" fill="#638F6D" stroke="black" stroke-width="2" />
@@ -10,6 +14,38 @@
 						c 0 0 , 0 0, 0 180
 						" stroke="black" stroke-width="2" fill="#638F6D" />
 	</g>
+	<!-- hat -->
+	<path d="M 450 60
+						c 0 0, 0 0, 0 -45
+						c 0 0, -145 -100, -290 0
+						c 0 0, 0 0, 0 45
+						c 0 0, 125 42, 290 0
+						" stroke="black" stroke-width="2" fill="#2D4D65" />
+	<path d="M 160 55
+						c 0 0, 125 42, 290 0
+						c 0 0, 0 0, 0 6
+						c 0 0, -146 42, -290 0
+						z
+						" stroke="black" stroke-width="2" fill="#6393BF" />
+	<!-- |_|,|| -->
+	<path d="M 190 0
+					c 0 0, 0 0, 0 30
+					c 0 0, 0 5, -10 15
+					c 0 0, 0 0, -20 0
+					c 0 0, -8 2, -20 -20
+					c 0 0, 0 0, 0 -25
+					" stroke="black" stroke-width="1.5" fill="#895645" />
+	<path d="M 175 10
+					c 0 0, 0 10, -10 18
+					c 0 0, -8 0, -13 -20
+					c 0 0, 10 -5, 23 3
+					" stroke="black" stroke-width="1.5" fill="#C1C102"  />
+	<path d="M 205 10
+					c 0 0, 0 0, 0 30
+					c 0 0, 4 5, 10 0
+					c 0 0, 0 0, 0 -20
+					c 0 0, 0 -15, -10 -10
+					" stroke="black" stroke-width="1.5" fill="#C1C102"  />			
 	<!-- right eyes -->
 	<!-- top -->
 	<!-- example circle -->
@@ -19,7 +55,7 @@
 						c 0 0, 0 0, 71 0
 						c 0 0, 0 0, -1 7
 						c 0 0, 0 0, -70 0
-						x
+						
 							" stroke="black" fill="#AFD0FE" />
 		<path d="M 255 133
 						c 0 0, 5 15, -12 28
@@ -54,7 +90,6 @@
 						c 0 0, 0 0, 71 0
 						c 0 0, 0 0, -1 7
 						c 0 0, 0 0, -70 0
-						x
 							" stroke="black" fill="#AFD0FE" />
 		<path d="M 335 137
 						c 0 0, 5 15, -12 28
@@ -71,7 +106,6 @@
 							c 0 0, 0 0, 71 0
 							c 0 0, 0 0, -1 7
 							c 0 0, 0 0, -70 0
-							x
 								" stroke="black" fill="#AFD0FE" />
 			<path d="M 336 209
 							c 0 0, 5 15, -12 28
@@ -89,7 +123,6 @@
 						c 0 0, 0 0, 71 0
 						c 0 0, 0 0, -1 7
 						c 0 0, 0 0, -70 0
-						x
 							" stroke="black" fill="#AFD0FE" />
 		<path d="M 420 133
 						c 0 0, 5 15, -12 28
@@ -106,7 +139,6 @@
 							c 0 0, 0 0, 71 0
 							c 0 0, 0 0, -1 7
 							c 0 0, 0 0, -70 0
-							x
 								" stroke="black" fill="#AFD0FE" />
 			<path d="M 420 205
 							c 0 0, 5 15, -12 28
@@ -120,16 +152,16 @@
 	<!-- ears-->
 	<!-- ear left -->
 	<path d="M 162 200
-					c 0 0, 0 -5, -70 -2
-					c 0 0, 0 20, 70 50
+					c 0 0, 0 -5, -80 -2
+					c 0 0, 0 20, 80 50
 					" stroke="black" stroke-width="2" fill="#638F6D" />
 	<path d="M 152 222
 					c 0 0, -15 -12, -35 -13
 					" stroke="black" stroke-width="2" fill="none" />
 	<!-- ear right -->
 	<path d="M 448 200
-					c 0 0, 0 -5, 70 -2
-					c 0 0, 0 20, -70 50
+					c 0 0, 0 -5, 80 -2
+					c 0 0, 0 20, -80 50
 					" stroke="black" stroke-width="2" fill="#638F6D" />
 	<path d="M 452 222
 					c 0 0, 15 -12, 35 -13
