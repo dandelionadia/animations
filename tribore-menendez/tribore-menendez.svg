@@ -126,4 +126,12 @@
 	<path d="M 152 222
 					c 0 0, -15 -12, -35 -13
 					" stroke="black" stroke-width="2" fill="none" />
+	<!-- ear right -->
+	<path d="M 448 200
+					c 0 0, 0 -5, 70 -2
+					c 0 0, 0 20, -70 50
+					" stroke="black" stroke-width="2" fill="#638F6D" />
+	<path d="M 452 222
+					c 0 0, 15 -12, 35 -13
+					" stroke="black" stroke-width="2" fill="none" />
 </svg>
