@@ -29,12 +29,6 @@
 							" stroke="black" stroke-width="1.5" fill="none" />
 		<!-- pupil -->
 		  <circle r="3.5" cx="41.9%" cy="37.7%" fill="black"/>
-		<path d="M 265 150
-						c 0 0, 0 0, 75 0
-							" stroke="black" />
-		<path d="M 350 150
-						c 0 0, 0 0, 75 0
-							" stroke="black" />
 	</g>
 	<!-- bottom -->
 	<g>
@@ -52,5 +46,75 @@
 								" stroke="black" stroke-width="1.5" fill="none" />
 			<!-- pupil -->
 				<circle r="3.5" cx="41.9%" cy="56.1%" fill="black"/>
+		</g>
+	<!-- medium eyes -->
+	<!-- top -->
+	<g>
+		<path d="M 265 142
+						c 0 0, 0 0, 71 0
+						c 0 0, 0 0, -1 7
+						c 0 0, 0 0, -70 0
+						x
+							" stroke="black" fill="#AFD0FE" />
+		<path d="M 335 137
+						c 0 0, 5 15, -12 28
+							" stroke="black" stroke-width="1.5" fill="none" />
+		<path d="M 265 137
+						c 0 0, -5 15, 12 28
+							" stroke="black" stroke-width="1.5" fill="none" />
+		<!-- pupil -->
+		  <circle r="3.5" cx="55.3%" cy="38.2%" fill="black"/>
+	</g>
+	<!-- bottom -->
+	<g>
+		<path d="M 265 214
+							c 0 0, 0 0, 71 0
+							c 0 0, 0 0, -1 7
+							c 0 0, 0 0, -70 0
+							x
+								" stroke="black" fill="#AFD0FE" />
+			<path d="M 336 209
+							c 0 0, 5 15, -12 28
+								" stroke="black" stroke-width="1.5" fill="none" />
+			<path d="M 265 209
+							c 0 0, -5 15, 12 28
+								" stroke="black" stroke-width="1.5" fill="none" />
+			<!-- pupil -->
+				<circle r="3.5" cx="55.5%" cy="57.1%" fill="black"/>
+		</g>
+	<!-- right eyes -->
+	<!-- top -->
+	<g>
+		<path d="M 350 140
+						c 0 0, 0 0, 71 0
+						c 0 0, 0 0, -1 7
+						c 0 0, 0 0, -70 0
+						x
+							" stroke="black" fill="#AFD0FE" />
+		<path d="M 420 133
+						c 0 0, 5 15, -12 28
+							" stroke="black" stroke-width="1.5" fill="none" />
+		<path d="M 350 133
+						c 0 0, -5 15, 12 28
+							" stroke="black" stroke-width="1.5" fill="none" />
+		<!-- pupil -->
+		  <circle r="3.5" cx="69.5%" cy="37.6%" fill="black"/>
+	</g>
+	<!-- bottom -->
+	<g>
+		<path d="M 350 210
+							c 0 0, 0 0, 71 0
+							c 0 0, 0 0, -1 7
+							c 0 0, 0 0, -70 0
+							x
+								" stroke="black" fill="#AFD0FE" />
+			<path d="M 420 205
+							c 0 0, 5 15, -12 28
+								" stroke="black" stroke-width="1.5" fill="none" />
+			<path d="M 350 205
+							c 0 0, -5 15, 12 28
+								" stroke="black" stroke-width="1.5" fill="none" />
+			<!-- pupil -->
+				<circle r="3.5" cx="69.5%" cy="56.1%" fill="black"/>
 		</g>
 </svg>
