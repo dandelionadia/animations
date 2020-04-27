@@ -59,6 +59,13 @@
 					c 0 0, 70 0, 108 -96
 					z
 					" stroke="noe" fill="#11345C" fill-opacity="0.5" />
+	<!-- light -->
+	<path d="M 161.3 90
+					c 0 0, 0 0, 0 110
+					c 0 0, 4 -1, 8 2
+					c 0 0, 0 0, 0 -105
+					z
+					" stroke="none" fill="white" fill-opacity="0.25" />
 	<!-- right eyes -->
 	<g>
 		<path d="M 184 140
@@ -180,6 +187,12 @@
 	<path d="M 431 245
 					c 0 0, 30 0, 95 -45
 					c 0 0, 0 20, -78 47
-					
 					" stroke="none" fill="#11345C" fill-opacity="0.5" />
+	<!-- light -->
+	<path d="M 161.3 248
+					c 0 0, -1 42, 49 70
+					c 0 0, -30 -10, -43 -70
+					c 0 0, 0 0, -5 -1
+					z
+					" stroke="none" fill="white" fill-opacity="0.25" />
 </svg>
