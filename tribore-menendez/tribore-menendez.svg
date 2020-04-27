@@ -14,6 +14,7 @@
 						c 0 0 , 0 0, 0 180
 						" stroke="black" stroke-width="2" fill="#638F6D" />
 	</g>
+
 	<!-- hat -->
 	<path d="M 450 60
 						c 0 0, 0 0, 0 -45
@@ -46,10 +47,19 @@
 					c 0 0, 0 0, 0 -20
 					c 0 0, 0 -15, -10 -10
 					" stroke="black" stroke-width="1.5" fill="#C1C102"  />			
+		<!-- shadow -->
+	<path d="M 450 15
+					c 0 0, 0 0, 0 186
+					c 0 0, -10 -2, -20 5
+					c 0 0, 10 -100, -10 -211
+					" stroke="none" fill="#11345C" fill-opacity="0.5" />
+	<path d="M 450 247
+					c 0 0, 1 80, -128 95
+					c 0 0, 0 0, 0 -1
+					c 0 0, 70 0, 108 -96
+					z
+					" stroke="noe" fill="#11345C" fill-opacity="0.5" />
 	<!-- right eyes -->
-	<!-- top -->
-	<!-- example circle -->
-		  <!-- <circle r="36" cx="36.5%" cy="36%" fill="yellowgreen"/> -->
 	<g>
 		<path d="M 184 140
 						c 0 0, 0 0, 71 0
@@ -166,4 +176,10 @@
 	<path d="M 452 222
 					c 0 0, 15 -12, 35 -13
 					" stroke="black" stroke-width="2" fill="none" />
+		<!-- shadow -->
+	<path d="M 431 245
+					c 0 0, 30 0, 95 -45
+					c 0 0, 0 20, -78 47
+					
+					" stroke="none" fill="#11345C" fill-opacity="0.5" />
 </svg>
