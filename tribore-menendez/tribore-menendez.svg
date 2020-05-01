@@ -66,7 +66,7 @@
 					c 0 0, 0 0, 0 -105
 					z
 					" stroke="none" fill="white" fill-opacity="0.25" />
-	<!-- right eyes -->
+	<!-- left eyes -->
 	<!-- top -->
 	<g>
 		<path d="M 184 140
@@ -87,7 +87,7 @@
 		<path d="M 190 115
 						q 8 -12, 35 0
 						q 10 5, 25 5
-						" stroke="black" fill="none" />
+						" stroke="black"  stroke-width="1.5" fill="none" />
 		<!-- bottom -->
 	</g>
 	<!-- bottom -->
@@ -110,7 +110,7 @@
 			<path d="M 190 195
 							q 8 -12, 35 0
 							q 10 5, 25 5
-							" stroke="black" fill="none" />
+							" stroke="black"  stroke-width="1.5" fill="none" />
 	<!-- bottom -->
 		</g>
 	<!-- medium eyes -->
@@ -132,7 +132,7 @@
 		<!-- eyebrow top -->
 		<path d="M 270 122
 						c 0 0, 30 15, 60 0"
-						stroke="black" fill="none" />
+						stroke="black"  stroke-width="1.5" fill="none" />
 	</g>
 	<!-- bottom -->
 	<g>
@@ -152,7 +152,7 @@
 			<!-- eyebrow bottom -->
 			<path d="M 270 200
 							c 0 0, 30 15, 60 0"
-							stroke="black" fill="none" />
+							stroke="black"  stroke-width="1.5" fill="none" />
 		</g>
 	<!-- right eyes -->
 	<!-- top -->
@@ -174,7 +174,7 @@
 		<path d="M 355 120
 						q 8 2, 20 -4
 						q 30 -13, 40 0
-						" stroke="black" fill="none" />
+						" stroke="black"  stroke-width="1.5" fill="none" />
 	</g>
 	<!-- bottom -->
 	<g>
@@ -195,35 +195,57 @@
 			<path d="M 355 200
 				q 8 2, 20 -4
 				q 30 -13, 40 0
-				" stroke="black" fill="none" />
+				" stroke="black" stroke-width="1.5" fill="none" />
 		</g>
 	<!-- ears-->
 	<!-- ear left -->
-	<path d="M 162 200
-					c 0 0, 0 -5, -80 -2
-					c 0 0, 0 20, 80 50
-					" stroke="black" stroke-width="2" fill="#638F6D" />
-	<path d="M 152 222
-					c 0 0, -15 -12, -35 -13
-					" stroke="black" stroke-width="2" fill="none" />
-	<!-- ear right -->
-	<path d="M 448 200
-					c 0 0, 0 -5, 80 -2
-					c 0 0, 0 20, -80 50
-					" stroke="black" stroke-width="2" fill="#638F6D" />
-	<path d="M 452 222
-					c 0 0, 15 -12, 35 -13
-					" stroke="black" stroke-width="2" fill="none" />
-		<!-- shadow -->
-	<path d="M 431 245
-					c 0 0, 30 0, 95 -45
-					c 0 0, 0 20, -78 47
-					" stroke="none" fill="#11345C" fill-opacity="0.5" />
-	<!-- light -->
-	<path d="M 161.3 248
-					c 0 0, -1 42, 49 70
-					c 0 0, -30 -10, -43 -70
-					c 0 0, 0 0, -5 -1
-					z
-					" stroke="none" fill="white" fill-opacity="0.25" />
+	<g>
+		<path d="M 162 200
+						c 0 0, 0 -5, -80 -2
+						c 0 0, 0 20, 80 50
+						" stroke="black" stroke-width="2" fill="#638F6D" />
+		<path d="M 152 222
+						c 0 0, -15 -12, -35 -13
+						" stroke="black" stroke-width="2" fill="none" />
+		<!-- ear right -->
+		<path d="M 448 200
+						c 0 0, 0 -5, 80 -2
+						c 0 0, 0 20, -80 50
+						" stroke="black" stroke-width="2" fill="#638F6D" />
+		<path d="M 452 222
+						c 0 0, 15 -12, 35 -13
+						" stroke="black" stroke-width="2" fill="none" />
+			<!-- shadow -->
+		<path d="M 431 245
+						c 0 0, 30 0, 95 -45
+						c 0 0, 0 20, -78 47
+						" stroke="none" fill="#11345C" fill-opacity="0.5" />
+		<!-- light -->
+		<path d="M 161.3 248
+						c 0 0, -1 42, 49 70
+						c 0 0, -30 -10, -43 -70
+						c 0 0, 0 0, -5 -1
+						z
+						" stroke="none" fill="white" fill-opacity="0.25" />
+	</g>
+	<!-- mouth -->
+	<g>
+		<path d="M 280 260
+						c 0 0, 35 -27 , 70 0
+						c 0 0, 10 12, -10 10
+						c 0 0, -20 -8, -50 0
+						c 0 0, -17 1, -10 -10
+						" stroke="black" stroke-width="1.5" fill="white" />
+		<path d="M 284 258
+						l 62 0
+						"  stroke="black" stroke-width="3" stroke-linecap="round"  />
+	</g>
+	<!-- tongue -->
+	<g>
+		<path d="M 297 257
+						c 0 0, 15 10, 35 0
+						q 0 -9, -17.5 0
+						q -15 -8, -17.5 0
+						" stroke="black" stroke-width="1.5" fill="#943CE2" />
+	</g>
 </svg>
