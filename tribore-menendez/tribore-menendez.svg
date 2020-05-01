@@ -129,6 +129,10 @@
 							" stroke="black" stroke-width="1.5" fill="none" />
 		<!-- pupil -->
 		  <circle r="3.5" cx="55.3%" cy="38.2%" fill="black"/>
+		<!-- eyebrow top -->
+		<path d="M 270 122
+						c 0 0, 30 15, 60 0"
+						stroke="black" fill="none" />
 	</g>
 	<!-- bottom -->
 	<g>
@@ -145,6 +149,10 @@
 								" stroke="black" stroke-width="1.5" fill="none" />
 			<!-- pupil -->
 				<circle r="3.5" cx="55.5%" cy="57.1%" fill="black"/>
+			<!-- eyebrow bottom -->
+			<path d="M 270 200
+							c 0 0, 30 15, 60 0"
+							stroke="black" fill="none" />
 		</g>
 	<!-- right eyes -->
 	<!-- top -->
