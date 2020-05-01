@@ -67,6 +67,7 @@
 					z
 					" stroke="none" fill="white" fill-opacity="0.25" />
 	<!-- right eyes -->
+	<!-- top -->
 	<g>
 		<path d="M 184 140
 						c 0 0, 0 0, 71 0
@@ -82,6 +83,12 @@
 							" stroke="black" stroke-width="1.5" fill="none" />
 		<!-- pupil -->
 		  <circle r="3.5" cx="41.9%" cy="37.7%" fill="black"/>
+		<!-- eyebrow top -->
+		<path d="M 190 115
+						q 8 -12, 35 0
+						q 10 5, 25 5
+						" stroke="black" fill="none" />
+		<!-- bottom -->
 	</g>
 	<!-- bottom -->
 	<g>
@@ -99,6 +106,12 @@
 								" stroke="black" stroke-width="1.5" fill="none" />
 			<!-- pupil -->
 				<circle r="3.5" cx="41.9%" cy="56.1%" fill="black"/>
+			<!-- eyebrow top -->
+			<path d="M 190 195
+							q 8 -12, 35 0
+							q 10 5, 25 5
+							" stroke="black" fill="none" />
+	<!-- bottom -->
 		</g>
 	<!-- medium eyes -->
 	<!-- top -->
