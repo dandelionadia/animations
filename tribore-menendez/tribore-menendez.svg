@@ -235,7 +235,7 @@
 						c 0 0, 10 12, -10 10
 						c 0 0, -20 -8, -50 0
 						c 0 0, -17 1, -10 -10
-						" stroke="black" stroke-width="1.5" fill="white" />
+						" stroke="black" stroke-width="1.5" fill="#AFD0FE" />
 		<path d="M 284 258
 						l 62 0
 						"  stroke="black" stroke-width="3" stroke-linecap="round"  />
