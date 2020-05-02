@@ -1,6 +1,21 @@
  <svg xmlns="http://www.w3.org/2000/svg" height="400" viewBox="0 0 600 380" preserveAspectRatio="xMinYMin meet">
 	<!-- background -->
   <rect width="100%" height="100%" fill="#030a24"/>
+	<!-- body -->
+	<path d="M 130 380
+					c 0 -155, 350 -105, 340 0
+					" stroke="black" stroke-width="1.5" fill="#2A3136" />
+					
+					<!-- c 0 0, -110 -100, -290 0 -->
+
+	<!-- shadow -->
+	<path d="M 130 380
+					c 0 -155, 350 -105, 340 0
+					c 0 0, 0 0, -15 0
+					c 0 0, 0 -20, -20 -40
+					c 0 0, 0 0, -260 0
+					c 0 0, -20 0, -25 40
+					" stroke="none" fill="#000" fill-opacity="0.4" />
 	<!-- sweater -->
 	<path d="M 130 360
 					c -20 -100, 360 -110, 340 0
@@ -15,21 +30,21 @@
 	<path d="M 300 385
 						c 0 0, 0 -20, -52 -50
 					" stroke="black" stroke-width="1.5" fill="none"/>
-	<path d="M 306 384
-						c 0 0, 0 -35, 30 -45
+	<path d="M 306 374
+						c 0 0, 0 -35, 30 -35
 						c 0 0, 0 0, -70 0
-						c 0 0, 29 0, 42 30
+						c 0 0, 29 0, 42 20
 					" stroke="black" stroke-width="1.5" fill="#638F6D"/>
 	<!-- light -->
 	<defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color: #fff; stop-opacity:0.1" />
-      <stop offset="100%" style="stop-color:#000;stop-opacity:0.2" />
+      <stop offset="70%" style="stop-color: #000; stop-opacity:0.4" />
     </linearGradient>
   </defs>
 	<path d="M 130 360
 					c -20 -100, 360 -110, 340 0
-					c 10 -10, -180 -170, -340 0
+					c 10 -10, -320 -110, -340 0
 					" stroke="none" fill="url(#grad1)"/>
 	<!-- hat bacground -->
 	<ellipse rx="220" ry="30%" cx="55%" cy="10%" stroke="black" stroke-width="2" fill="#11345C"/>
