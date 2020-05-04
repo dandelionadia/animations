@@ -319,4 +319,10 @@
 						c 0 0, 0 -20, 39 -43
 						" stroke="black" stroke-width="1.5" fill="#423903" />
 	</g>
+	 <path d="M 0 379
+ 					h 200 400
+					v 0 15
+					h -600 0
+					v 0 -15
+					" stroke="none" fill="white" />
 </svg>
