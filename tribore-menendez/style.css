@@ -10,20 +10,20 @@
 }
 
 .handMove {
-  transform-origin: bottom right 60px;
+  transform-origin: center;
   animation: handMove 3s infinite;
-  /* animation-fill-mode: backwards; */
+  animation-fill-mode: backwards;
 }
 
 @keyframes handMove {
   0% {
-    transform: rotate(0.002turn) translate(3%);
+    transform: rotate(-0.02turn) translate(0.5%);
   }
   40% {
-    transform: rotate(0turn) translate(-3%);
+    transform: rotate(0turn) translate(-5%);
   }
   100% {
-    transform: rotate(0.002turn) translate(3%);
+    transform: rotate(-0.02turn) translate(0.5%);
   }
 }
 
