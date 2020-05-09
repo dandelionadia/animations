@@ -9,6 +9,24 @@
   max-width: 100%;
 }
 
+.handMove {
+  transform-origin: bottom right 60px;
+  animation: handMove 3s infinite;
+  /* animation-fill-mode: backwards; */
+}
+
+@keyframes handMove {
+  0% {
+    transform: rotate(0.002turn) translate(3%);
+  }
+  40% {
+    transform: rotate(0turn) translate(-3%);
+  }
+  100% {
+    transform: rotate(0.002turn) translate(3%);
+  }
+}
+
 /* theme */
 
 /* background: #030a24;
