@@ -1,3 +1,19 @@
+/* theme */
+
+/* background: #030a24;
+eyes: #AFD0FE;
+skin: #638F6D;
+body: #2A3136;
+hat: #2D4D65;
+blue-light-on-the-hat: #6393BF;
+shadow-hat: #11345C;
+red: #895645;
+yellow: #C1C102;
+shadow-face: #11345C;
+sweater: #452620;
+hand: #423903;
+tongue: #943CE2; */
+
 #container {
   display: flex;
   justify-content: center;
@@ -27,18 +43,29 @@
   }
 }
 
-/* theme */
+.pupilMuve {
+  transform-origin: center;
+  animation: pupilMove 5s infinite;
+  animation-fill-mode: backwards;
+}
 
-/* background: #030a24;
-eyes: #AFD0FE;
-skin: #638F6D;
-body: #2A3136;
-hat: #2D4D65;
-blue-light-on-the-hat: #6393BF;
-shadow-hat: #11345C;
-red: #895645;
-yellow: #C1C102;
-shadow-face: #11345C;
-sweater: #452620;
-hand: #423903;
-tongue: #943CE2; */
+@keyframes pupilMove {
+  0% {
+    transform: translate(0);
+  }
+  35% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-10.8%);
+  }
+  85% {
+    transform: translate(-10.8%);
+  }
+  95% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
