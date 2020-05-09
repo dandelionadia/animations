@@ -27,7 +27,7 @@ tongue: #943CE2; */
 
 .handMove {
   transform-origin: center;
-  animation: handMove 3s infinite;
+  animation: handMove 5s infinite;
   animation-fill-mode: backwards;
 }
 
@@ -35,9 +35,11 @@ tongue: #943CE2; */
   0% {
     transform: rotate(-0.02turn) translate(0.5%);
   }
-  40% {
+  30%,
+  55% {
     transform: rotate(0turn) translate(-5%);
   }
+  75%,
   100% {
     transform: rotate(-0.02turn) translate(0.5%);
   }
